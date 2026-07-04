@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#2b004d;
+    color:white;
+}
+
+header{
+    background:linear-gradient(90deg,#3b0066,#6b00b3);
+    padding:30px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.4);
+}
+
+header h1{
+    font-size:52px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:20px;
+    color:#ddd;
+}
+
+nav{
+    background:#3f006d;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:18px;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ffd700;
+}
+
+.hero{
+    text-align:center;
+    padding:70px 20px;
+}
+
+.hero h2{
+    font-size:42px;
+}
+
+.hero p{
+    margin-top:15px;
+    font-size:22px;
+}
+
+.btn{
+    margin-top:30px;
+    display:inline-block;
+    background:#ffd700;
+    color:black;
+    padding:15px 35px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+.section-title{
+    text-align:center;
+    margin:50px 0 20px;
+    font-size:34px;
+}
+
+table{
+    width:90%;
+    margin:auto;
+    border-collapse:collapse;
+    background:#3a0066;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+th{
+    background:#7d00d4;
+    padding:15px;
+}
+
+td{
+    padding:14px;
+    text-align:center;
+    border-bottom:1px solid rgba(255,255,255,.1);
+}
+
+tr:hover{
+    background:#5b009e;
+}
+
+.first{
+    background:#0d8f43;
+}
+
+.last{
+    background:#991b1b;
+}
+
+.card-area{
+    width:90%;
+    margin:50px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#3d006b;
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+}
+
+.card h3{
+    margin-bottom:15px;
+}
+
+.card p{
+    font-size:20px;
+}
+
+footer{
+    margin-top:60px;
+    background:#1b0030;
+    text-align:center;
+    padding:25px;
+}
+
+@media(max-width:700px){
+
+header h1{
+font-size:36px;
+}
+
+.hero h2{
+font-size:30px;
+}
+
+nav{
+flex-wrap:wrap;
+}
+
+table{
+font-size:13px;
+}
+
+}
