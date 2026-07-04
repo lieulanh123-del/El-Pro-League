@@ -1,89 +1,15 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>El Pro League</title>
 
-<style>
-
-body{
-    margin:0;
-    font-family:Arial, sans-serif;
-    background:#2b004d;
-    color:white;
-}
-
-header{
-    background:#4b0082;
-    padding:25px;
-    text-align:center;
-}
-
-header h1{
-    margin:0;
-    font-size:50px;
-}
-
-header p{
-    margin-top:10px;
-    font-size:20px;
-}
-
-nav{
-    background:#37005f;
-    padding:15px;
-    text-align:center;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:20px;
-    font-size:18px;
-    font-weight:bold;
-}
-
-nav a:hover{
-    color:gold;
-}
-
-.hero{
-    text-align:center;
-    padding:80px 20px;
-}
-
-.hero h2{
-    font-size:42px;
-}
-
-.hero p{
-    font-size:22px;
-}
-
-button{
-    margin-top:25px;
-    padding:15px 35px;
-    font-size:20px;
-    border:none;
-    border-radius:10px;
-    background:gold;
-    cursor:pointer;
-}
-
-button:hover{
-    background:orange;
-}
-
-footer{
-    background:#1f0036;
-    text-align:center;
-    padding:20px;
-    margin-top:60px;
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -101,31 +27,186 @@ footer{
 
 <a href="#">Trang chủ</a>
 
-<a href="#">Bảng xếp hạng</a>
+<a href="#">BXH</a>
 
 <a href="#">Lịch thi đấu</a>
 
-<a href="#">Highlight</a>
+<a href="#">Kết quả</a>
 
 <a href="#">Hall Of Fame</a>
 
+<a href="#">Highlight</a>
+
 </nav>
 
-<div class="hero">
+<section class="hero">
 
 <h2>⚽ MÙA GIẢI 2</h2>
 
 <p>4 CLB • 12 Trận đấu • 1 Nhà vô địch</p>
 
-<button>Xem bảng xếp hạng</button>
+<a class="btn" href="#">Xem bảng xếp hạng</a>
+
+</section>
+
+<h2 class="section-title">🏆 BẢNG XẾP HẠNG</h2>
+
+<table>
+
+<tr>
+
+<th>Hạng</th>
+
+<th>CLB</th>
+
+<th>Tr</th>
+
+<th>T</th>
+
+<th>H</th>
+
+<th>B</th>
+
+<th>HS</th>
+
+<th>Đ</th>
+
+</tr>
+
+<tr class="first">
+
+<td>🥇</td>
+
+<td>Phúc</td>
+
+<td>3</td>
+
+<td>3</td>
+
+<td>0</td>
+
+<td>0</td>
+
+<td>+7</td>
+
+<td>9</td>
+
+</tr>
+
+<tr>
+
+<td>🥈</td>
+
+<td>Vinh</td>
+
+<td>3</td>
+
+<td>1</td>
+
+<td>0</td>
+
+<td>2</td>
+
+<td>0</td>
+
+<td>3</td>
+
+</tr>
+
+<tr>
+
+<td>🥉</td>
+
+<td>Phước</td>
+
+<td>3</td>
+
+<td>1</td>
+
+<td>0</td>
+
+<td>2</td>
+
+<td>-2</td>
+
+<td>3</td>
+
+</tr>
+
+<tr class="last">
+
+<td>4</td>
+
+<td>Đanh</td>
+
+<td>3</td>
+
+<td>1</td>
+
+<td>0</td>
+
+<td>2</td>
+
+<td>-5</td>
+
+<td>3</td>
+
+</tr>
+
+</table>
+
+<h2 class="section-title">⭐ THỐNG KÊ</h2>
+
+<div class="card-area">
+
+<div class="card">
+
+<h3>👑 Vua phá lưới</h3>
+
+<p>Đanh</p>
+
+<p>15⚽</p>
+
+</div>
+
+<div class="card">
+
+<h3>🎯 Kiến tạo</h3>
+
+<p>Phúc</p>
+
+<p>8🎯</p>
+
+</div>
+
+<div class="card">
+
+<h3>⭐ MVP</h3>
+
+<p>Vinh</p>
+
+<p>3 lần</p>
+
+</div>
+
+<div class="card">
+
+<h3>🏆 ĐKVĐ</h3>
+
+<p>Phúc</p>
+
+<p>Season 1</p>
+
+</div>
 
 </div>
 
 <footer>
 
-© 2026 El Pro League
+<p>© 2026 El Pro League</p>
 
 </footer>
 
 </body>
+
 </html>
